@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.progressBarC = new System.Windows.Forms.ProgressBar();
             this.progressBarD = new System.Windows.Forms.ProgressBar();
             this.labelC = new System.Windows.Forms.Label();
@@ -36,6 +37,8 @@
             this.labelDownloads = new System.Windows.Forms.Label();
             this.labelAppData = new System.Windows.Forms.Label();
             this.labelDesktop = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // progressBarC
@@ -137,6 +140,8 @@
         private System.Windows.Forms.Label labelDownloads;
         private System.Windows.Forms.Label labelAppData;
         private System.Windows.Forms.Label labelDesktop;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
